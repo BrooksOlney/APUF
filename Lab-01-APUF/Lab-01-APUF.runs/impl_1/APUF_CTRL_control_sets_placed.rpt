@@ -1,0 +1,107 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sat Apr 22 18:48:30 2023
+| Host         : BrooksRig running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file APUF_CTRL_control_sets_placed.rpt
+| Design       : APUF_CTRL
+| Device       : xc7s25
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    29 |
+|    Minimum number of control sets                        |    29 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   159 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    29 |
+| >= 0 to < 4        |    23 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            4 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              53 |           27 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              43 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-------------------------------+---------------------------+------------------+----------------+--------------+
+|   Clock Signal   |         Enable Signal         |      Set/Reset Signal     | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------+-------------------------------+---------------------------+------------------+----------------+--------------+
+|  A/PCSPUF/top7/Z |                               |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[0]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[4]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[2]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[6]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[7]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[1]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_DV_i_1_n_0           |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[3]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | URX/r_Rx_Byte[5]_i_1_n_0      |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | UTX/r_Tx_Done                 |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | UTX/r_Tx_Data                 |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | UTX/r_SM_Main[2]              |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | p_3_in                        |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | preset6_out                   |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | rst                           |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | tx_data[0]_i_1_n_0            | rst                       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | tx_valid_i_1_n_0              | rst                       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | signal4_out                   |                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG   | rx_data                       | in_byte_count             |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG   | out_byte_count                | out_byte_count[1]_i_1_n_0 |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG   | URX/r_Bit_Index[2]_i_2_n_0    | URX/r_Bit_Index           |                1 |              3 |         3.00 |
+|  clk_IBUF_BUFG   | UTX/r_Bit_Index               | UTX/r_Clock_Count0        |                1 |              3 |         3.00 |
+|  clk_IBUF_BUFG   | UTX/r_Clock_Count             | UTX/r_Clock_Count0        |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG   |                               |                           |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG   | rsp_counter[7]_i_2_n_0        | rsp_counter[7]_i_1_n_0    |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG   | rx_data                       |                           |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG   | challenge                     | challenge[15]_i_1_n_0     |                8 |             16 |         2.00 |
+|  clk_IBUF_BUFG   | URX/r_Clock_Count[20]_i_1_n_0 |                           |                7 |             21 |         3.00 |
++------------------+-------------------------------+---------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1682203680">
+  <File Type="PA-TCL" Name="APUF_CTRL.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="APUF_CTRL_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="APUF_CTRL_reports.tcl"/>
+  <File Type="RDS-RDS" Name="APUF_CTRL.vds"/>
+  <File Type="RDS-UTIL" Name="APUF_CTRL_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="APUF_CTRL_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="APUF_CTRL.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="APUF_CTRL_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="APUF_CTRL_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/arbiterpuf.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/arbiterpuf.v"/>
+        <Attr Name="ImportTime" Val="1615841255"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/dflipflop.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/dflipflop.v"/>
+        <Attr Name="ImportTime" Val="1491584151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pcs.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pcs_arbiter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1615833933"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1615833911"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/controller.v"/>
+        <Attr Name="ImportTime" Val="1615841274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/arbel.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/arbel.v"/>
+        <Attr Name="ImportTime" Val="1615578840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/arbiter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/arbiter.v"/>
+        <Attr Name="ImportTime" Val="1615578840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/2x1mux.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/2x1mux.v"/>
+        <Attr Name="ImportTime" Val="1491584151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="APUF_CTRL"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_3">
+    <File Path="$PSRCDIR/constrs_3/new/APUF_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_3/new/APUF_constr.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design">
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="FlattenHierarchy">1</Option>
+      <Option Id="ControlSetOptThreshold">0</Option>
+      <Option Id="Directive">3</Option>
+    </Step>
+  </Strategy>
+</GenRun>

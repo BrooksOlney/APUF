@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1682203685">
+  <File Type="ROUTE-PWR" Name="APUF_CTRL_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="APUF_CTRL.tcl"/>
+  <File Type="BITSTR-MMI" Name="APUF_CTRL.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="APUF_CTRL_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="APUF_CTRL_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="APUF_CTRL_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="APUF_CTRL_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="APUF_CTRL_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="APUF_CTRL_opt.dcp"/>
+  <File Type="OPT-DRC" Name="APUF_CTRL_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="APUF_CTRL.hwdef"/>
+  <File Type="PWROPT-DCP" Name="APUF_CTRL_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="APUF_CTRL_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="APUF_CTRL_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="APUF_CTRL_placed.dcp"/>
+  <File Type="PLACE-IO" Name="APUF_CTRL_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="APUF_CTRL_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="APUF_CTRL_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="APUF_CTRL_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="APUF_CTRL_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="APUF_CTRL_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="APUF_CTRL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="APUF_CTRL.bin"/>
+  <File Type="PLACE-TIMING" Name="APUF_CTRL_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="APUF_CTRL_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="APUF_CTRL.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="APUF_CTRL_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="APUF_CTRL_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="APUF_CTRL_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="APUF_CTRL.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="APUF_CTRL_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="APUF_CTRL_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="APUF_CTRL_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="APUF_CTRL_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="APUF_CTRL_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="APUF_CTRL_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="APUF_CTRL_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="APUF_CTRL_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="APUF_CTRL_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="APUF_CTRL_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="APUF_CTRL_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="APUF_CTRL_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="APUF_CTRL_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="APUF_CTRL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="APUF_CTRL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="APUF_CTRL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="APUF_CTRL_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="APUF_CTRL_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="APUF_CTRL_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="APUF_CTRL_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="APUF_CTRL_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="APUF_CTRL_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="APUF_CTRL_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="APUF_CTRL_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="APUF_CTRL_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="APUF_CTRL_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="APUF_CTRL_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="APUF_CTRL.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="APUF_CTRL_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="APUF_CTRL_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="APUF_CTRL.nky"/>
+  <File Type="BITSTR-BMM" Name="APUF_CTRL_bd.bmm"/>
+  <File Type="PDI-FILE" Name="APUF_CTRL.pdi"/>
+  <File Type="RCFI_FILE" Name="APUF_CTRL.rcfi"/>
+  <File Type="CFI_FILE" Name="APUF_CTRL.cfi"/>
+  <File Type="RNPI_FILE" Name="APUF_CTRL.rnpi"/>
+  <File Type="NPI_FILE" Name="APUF_CTRL.npi"/>
+  <File Type="RBD_FILE" Name="APUF_CTRL.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="APUF_CTRL.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="APUF_CTRL.sysdef"/>
+  <File Type="BG-BGN" Name="APUF_CTRL.bgn"/>
+  <File Type="BG-DRC" Name="APUF_CTRL.drc"/>
+  <File Type="RDI-RDI" Name="APUF_CTRL.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="APUF_CTRL_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="APUF_CTRL_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/arbiterpuf.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/arbiterpuf.v"/>
+        <Attr Name="ImportTime" Val="1615841255"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/dflipflop.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/dflipflop.v"/>
+        <Attr Name="ImportTime" Val="1491584151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pcs.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pcs_arbiter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1615833933"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1615833911"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/controller.v"/>
+        <Attr Name="ImportTime" Val="1615841274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/arbel.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/arbel.v"/>
+        <Attr Name="ImportTime" Val="1615578840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/arbiter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/arbiter.v"/>
+        <Attr Name="ImportTime" Val="1615578840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ArbiterPUF64x8/2x1mux.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../XISE/ArbiterPUF64x8/2x1mux.v"/>
+        <Attr Name="ImportTime" Val="1491584151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="APUF_CTRL"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_3">
+    <File Path="$PSRCDIR/constrs_3/new/APUF_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_3/new/APUF_constr.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_RunPostRoutePhysOpt" Flow="Vivado Implementation 2022">
+      <Desc>Similar to the Implementation Run Defaults, but enables the physical optimization step (phys_opt_design) before and after routing.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design" EnableStepBool="0"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="0">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="MoreOptsStr"><![CDATA[-tns_cleanup]]></Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design" EnableStepBool="1"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
